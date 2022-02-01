@@ -9,6 +9,7 @@
   - [Sample Video](#sample-video)
   - [Gif](#gif)
   - [Screenshots](#screenshot)
+  - [Credits](#credits)
 
 ## Description:
 Note Taker is an application to write and save note with Express.js back end and will save and retrieve note data from JSON file.
@@ -44,10 +45,22 @@ To be able to write and save notes,so that I can organize my thoughts and keep t
 * Heroku: https://note-taker-parul.herokuapp.com
 
 ## Sample Video:
-  
+The following video demonstrates the application's functionality:
+  https://drive.google.com/file/d/1Rf2y7-CsTilcAvLmh71B2sj_5ohJ-z6O/view?usp=sharing
 
 ## Gif:
 
+![](./public/assets/images/Notetaker.gif)
  
+## Screenshots:
 
-## Screenshots
+![](./public/assets/images/Main.png)
+![](./public/assets/images/Existing.png)
+![](./public/assets/images/newNote.png)
+![](./public/assets/images/savenewNote.png)
+
+## Credits
+* Parul Raj
+* Joe Rehfuss
+* Brett Belka
+* Louis Coleman
