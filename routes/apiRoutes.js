@@ -32,7 +32,19 @@ apiRouter.post('/', (req, res) => {
   }
 });
 
-
-
+// DELETE Route for removing a note
+apiRouter.delete(`/:id`, (req, res) => {
+    readFromFile("./db/db.json").then((data) => {
+      const deleteId = req.url;
+      const db = JSON.parse(data);
+      const newArr = db.filter(function (value) {
+        return `/${value.id}` != deleteId;
+      });
+      fs.writeFile("./db/db.json", JSON.stringify(newArr), (err) =>
+        err ? console.error(err) : console.log("Note deleted!")
+      );
+    });
+    readFromFile("./db/db.json").then((data) => res.json(JSON.parse(data)));
+  });
 
 module.exports = apiRouter;

@@ -8,7 +8,6 @@ const api = require('./routes/htmlRoutes.js');
 // Create an express server
 const app = express();
 
-
 // Set PORT
 const PORT = 3001;
 
