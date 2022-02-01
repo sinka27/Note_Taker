@@ -15,7 +15,7 @@
 Note Taker is an application to write and save note with Express.js back end and will save and retrieve note data from JSON file.
 
 ## Motivation
-To be able to write and save notes,so that user can organize my thoughts and keep track of tasks to be completed.
+To be able to write and save notes,so that user can organize their thoughts and keep track of tasks to be completed.
 
 ## Usage
 * Application will allow user to be able to add note's title and description.
